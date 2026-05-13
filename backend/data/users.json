@@ -1,0 +1,34 @@
+[
+  {
+    "id": "usr-1",
+    "name": "Администратор",
+    "email": "admin@engines.ru",
+    "age": 30,
+    "role": "admin",
+    "password": "$2b$10$TVsPLNknubW1ChwHUeIepO0e/enE8HsQzIUzN7AMJnyQhD5Jvn6ie"
+  },
+  {
+    "id": "usr-2",
+    "name": "Иванов Иван",
+    "email": "ivanov@mail.ru",
+    "age": 25,
+    "role": "user",
+    "password": "$2b$10$TVsPLNknubW1ChwHUeIepO0e/enE8HsQzIUzN7AMJnyQhD5Jvn6ie"
+  },
+  {
+    "id": "usr-3",
+    "name": "Петрова Анна",
+    "email": "petrova@gmail.com",
+    "age": 28,
+    "role": "user",
+    "password": "$2b$10$TVsPLNknubW1ChwHUeIepO0e/enE8HsQzIUzN7AMJnyQhD5Jvn6ie"
+  },
+  {
+    "id": "46a136fe-595d-41ce-9c6d-7c9d2303541e",
+    "name": "Саша",
+    "email": "example@mail.ru",
+    "age": 19,
+    "role": "user",
+    "password": "$2b$10$si0rrdlns33XmX7MP8Ph2Ou.wV73D6EfbNuBAODcxQ./Ng8hD9l1O"
+  }
+]

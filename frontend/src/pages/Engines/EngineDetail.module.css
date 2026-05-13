@@ -1,0 +1,248 @@
+.loading {
+  text-align: center;
+  color: #888;
+  margin-top: 80px;
+}
+
+.wrapper {
+  max-width: 900px;
+}
+
+.back {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.back:hover {
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+.meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  color: #888;
+  font-size: 15px;
+}
+
+.badge {
+  background: #f0f4ff;
+  color: #3b5bdb;
+  padding: 2px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.adminActions {
+  display: flex;
+  gap: 8px;
+}
+
+.editBtn {
+  padding: 8px 20px;
+  background: #3b5bdb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteBtn {
+  padding: 8px 20px;
+  background: #e94560;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+@media (max-width: 700px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.specsBlock h2,
+.reviewsBlock h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a1a2e;
+}
+
+.specsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.specsTable td {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+}
+
+.specsTable td:first-child {
+  color: #888;
+  width: 55%;
+}
+
+.specsTable td:last-child {
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.avgRating {
+  font-size: 16px;
+  color: #f59e0b;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.noReviews {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.reviewCard {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.stars {
+  color: #f59e0b;
+  font-size: 16px;
+}
+
+.reviewDate {
+  font-size: 12px;
+  color: #aaa;
+  flex: 1;
+}
+
+.deleteReview {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteReview:hover {
+  color: #e94560;
+}
+
+.reviewComment {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.reviewForm {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.reviewForm h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.ratingSelect {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.ratingSelect select {
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: vertical;
+  font-family: inherit;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #e94560;
+}
+
+.error {
+  color: #e94560;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.submitBtn {
+  padding: 10px 24px;
+  background: #e94560;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submitBtn:hover {
+  background: #c73652;
+}
